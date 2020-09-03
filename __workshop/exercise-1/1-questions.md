@@ -6,7 +6,7 @@ Type true/false in the provided [ ].
 
 a) [False ] `<div><span>hello</div></span>` _First-in first-out technique._
 
-b) [ False] _Can't use a closing tag for <ol> when it wasn't used to begin with._
+b) [ False] _Can't use a closing tag for <ol> when it wasn't used to begin with_
 
 ```html
 <ul>
@@ -14,7 +14,7 @@ b) [ False] _Can't use a closing tag for <ol> when it wasn't used to begin with.
 </ol>
 ```
 
-c) [ True] `<ul></ul><img/><ol><li>one</li></ol>` 
+c) [True] `<ul></ul><img/><ol><li>one</li></ol>` 
 
 ## Q2 - What is a screenreader and why should we care about them?
 
