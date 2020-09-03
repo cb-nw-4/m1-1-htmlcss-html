@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [ false ] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [ false ]
 
 ```html
 <ul>
@@ -14,11 +14,13 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [ true ] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+A screen reader is a type of assistive technology that renders web content in alternate forms, including speech output. This is an accessibility tool that enables people with impaired vision, blindness, and certain learning disabilities to absorb online content.
+
+(Source: https://en.wikipedia.org/wiki/Screen_reader)
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
