@@ -38,6 +38,10 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
+A button cannot be the child of another button. Buttons can only contain "phrasing content."
+
+Source: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Phrasing_content
+
 ## Q5 - What is the most generic tag you can use?
 
 ## Q6 - What do the following achronyms stand for?
