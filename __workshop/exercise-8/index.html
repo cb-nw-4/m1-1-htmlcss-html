@@ -1,1 +1,39 @@
 <!-- ...crickets... -->
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" name="username" required />
+            <label for="password">Password</label>
+            <input type="password" name="password" required />
+            <label for="email">Email</label>
+            <input type="email" name="email" required />
+            <h2>Which taxi do you require?</h2>
+            <input type="radio" id="vehicle1" name="taxi" value="car" required>
+            <label for="vehicle1">Car</label>
+            <input type="radio" id="vehicle2" name="taxi" value="Van">
+            <label for="vehicle2">Van</label>
+            <input type="radio" id="vehicle3" name="taxi" value="tuk tuk">
+            <label for="vehicle3">Tuk Tuk</label>
+            <h2>Choose your extras</h2>
+            <input type="checkbox" id="extra1" name="extra" value="baby">
+            <label for="extra1">Baby seat</label>
+            <input type="checkbox" id="extra2" name="extra" value="wheelchair">
+            <label for="extra2">Wheelchair access</label>
+            <input type="checkbox" id="extra3" name="extra" value="privacy">
+            <label for="extra3">Privacy Windows</label>
+            <h2>Where would you like us to pick you up?</h2>
+            <label for="place">Choose a car:</label>
+            <select name="place" id="place">
+                <option value="public">Public space</option>
+                <option value="home">Home</option>
+                <option value="parking">Parking</option>
+            </select>
+            <h2>Additional Instructions</h2>
+            <label for="special">Special</label>
+            <textarea name="special" rows="2" cols="20">provide special instructions here</textarea>
+            <input type="button" value="Submit">
+        </form>
+    </body>
+</html>

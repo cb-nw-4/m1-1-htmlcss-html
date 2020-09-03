@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [false] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [false]
 
 ```html
 <ul>
@@ -14,50 +14,76 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+"A screen reader is a form of assistive technology (AT)[1] that renders text and image content as speech or braille output."
+https://en.wikipedia.org/wiki/Screen_reader 
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
+    <img>
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+    <ul> and <a>
 
 c) You want to sell designer hats. You need to receive orders from the user.
+    <form>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
+
 ## Q5 - What is the most generic tag you can use?
+    <div>
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` Link to a page or a page portion
 
-b) `ol`
+b) `ol` Ordered list (1.2.3.4...)
 
-c) `ul`
+c) `ul` Unordered list (bullet points)
 
-d) `li`
+d) `li` Elements in a list
 
-e) `tr`
+e) `tr` Rows in a table
 
-f) `th`
+f) `th` Table header cells
 
-g) `td`
+g) `td` Data cells
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
+    <tr>
 
 ## Q8 - What is the difference between td and th?
+    td is a data entry and th is the header of the type of data:
+    Exemple in a table listing revenue per month we will have Month and Revenu in a th and the data per month in the td.
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+    h1
 
 ## Q10 - In which situation can you use self closing tags?
+    <area /> – clickable area inside an image map
+    <base /> – new root or base path for relitive paths
+    <br /> – single line break in a paragraph
+    <embed /> – embeds things like flash
+    <hr /> – change in type of content
+    <iframe /> – frame inside the page
+    <img /> – image
+    <input /> – input field
+    <link /> – include an external style sheet
+    <meta /> – metadata about the page
+    <param /> – parameter for an object
+    <source /> – include media for video or audio
+    <track /> – text track for video or audio
 
 ## Q11 - What is autofilling and why is it important?
+    Autofilling is he feature that helps the browser predict the input in a field. Example auto complete the address in an order form. This makes the user experience less tedious where he just needs to review the entry instead of typing the address.
 
 ## Q12 - Which attributes are always present in an img element?
+    src to specify the path of the image but it is higly recommended to add the alt that specifies a description of the photo for the screenreaders and in case the image is not displayed.
 
 ## Q13 - Which attribute is always present for an anchor tag?
+    href
