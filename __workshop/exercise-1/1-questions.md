@@ -40,19 +40,19 @@ No, a button cannot be a button of a child. A button is interactive content, and
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a` - url
+a) `a` - anchor
 
 b) `ol` - ordered list
 
 c) `ul` - unordered list
 
-d) `li` - list element
+d) `li` - list item
 
 e) `tr` - table row
 
-f) `th` - header cell in a table
+f) `th` - table header
 
-g) `td` - data cell in a table
+g) `td` - table data
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
@@ -76,4 +76,8 @@ g) `td` - data cell in a table
 
 ## Q12 - Which attributes are always present in an img element?
 
+    <src> and <alt>
+
 ## Q13 - Which attribute is always present for an anchor tag?
+
+    href - which is the tag's target 
