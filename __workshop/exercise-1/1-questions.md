@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [false] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [false]
 
 ```html
 <ul>
@@ -14,9 +14,13 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [true] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
+
+A screen reader allows a person with severe visual impairments to use a computer by relaying the information through speech or braille.
+
+source; "https://www.nomensa.com/blog/2005/what-screen-reader"
 
 _Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
 
