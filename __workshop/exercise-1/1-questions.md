@@ -74,6 +74,6 @@ _Self closing tags can be used when there is a lack of content between an openin
 _Assumption is made for Autocomplete because there is no attribute or tag named as autofill in HTML. Autocomplete is an attribute applied to the input text fields where the information entered by the user is available to be filled automatically in the similar text fields. It is important because it helps a user to quickly fill in similar information in a field._
 
 ## Q12 - Which attributes are always present in an img element?
-
+_src to dictate the source of the image. height and width to dictate the size of the image._
 
 ## Q13 - Which attribute is always present for an anchor tag?
