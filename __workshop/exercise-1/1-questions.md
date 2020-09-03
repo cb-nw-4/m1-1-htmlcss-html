@@ -80,8 +80,10 @@ g) `td` is a standard cell element specified within a <tr> in an HTML table (not
 'td' element is a standard cell, so just the regular contents of a cell in a table while 'th' specifies the header of the table
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+'h1'
 
 ## Q10 - In which situation can you use self closing tags?
+Self-closing tags or void elements are that don't require a closing tag. These are elements such as 'img' or 'link'. You generally use them in situations where the structure of the element don't require a closing tag. For example, with an image tag, you include all necessary information to direct to the image in the element line. However, not all in-line elements are void elements.
 
 ## Q11 - What is autofilling and why is it important?
 
