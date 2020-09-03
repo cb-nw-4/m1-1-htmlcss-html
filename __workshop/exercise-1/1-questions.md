@@ -19,8 +19,7 @@ c) [True] `<ul></ul><img/><ol><li>one</li></ol>`
 ## Q2 - What is a screenreader and why should we care about them?
 
 _Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
-_Screen readers are the softwares or browser extensions that read the text from the computer screen. The reader can read from any webpage to an empty screen. Common examples are NVDA, JAWS and ReadAloud._
-_Screen readers allow people with visual impairment to have access to the same technology easily that people without impairments use. It is an accessibility and equal opportunity issue that we all should care about._
+_Screen readers are the softwares or browser extensions that read the text from the computer screen. The reader can read from any webpage to an empty screen. Common examples are NVDA, JAWS and ReadAloud. Screen readers allow people with visual impairment to have access to the same technology easily that people without impairments use. It is an accessibility and equal opportunity issue that we all should care about._
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
