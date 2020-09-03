@@ -71,11 +71,13 @@ e) `tr` is a row in an HTML table
 
 f) `th` is a header in an HTML table
 
-g) `td` is a standard cell element specified within a <tr> in an HTML table
+g) `td` is a standard cell element specified within a <tr> in an HTML table (not a header or footer of the table but just a regular cell)
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
+'td' elements are usually the children of <tr> elements
 
 ## Q8 - What is the difference between td and th?
+'td' element is a standard cell, so just the regular contents of a cell in a table while 'th' specifies the header of the table
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
