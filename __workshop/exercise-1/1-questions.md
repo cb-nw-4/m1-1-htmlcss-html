@@ -24,13 +24,13 @@ _Screen readers are the softwares or browser extensions that read the text from 
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
-_<img>_
+_<img> tag is used to add the images._
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-_<a href> to link the websites to the sources, <ul> or <ol> to define lists and <li> for individual list members_
+_<a href> tag is used to link the websites to the sources, <ul> or <ol> is used to define lists and <li> is used for individual list members._
 
 c) You want to sell designer hats. You need to receive orders from the user.
-_To start with <form></form>, and within form tag, the page will use <label> tag and <input> tag for various entries in various formats (types texts, checkboxes, radio buttons). Finally for submission <input> with type button will be used._
+_To start with <form></form> is used, and within form tag the page will use <label> tag and <input> tag for various entries in various formats (types texts, checkboxes, radio buttons). Finally for submission <input> with type button will be used._
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
