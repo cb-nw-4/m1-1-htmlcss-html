@@ -55,6 +55,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 Since <button> is an inline element, it cannot be a parent. This is because the code is contained within the <button> line and don't break or interfere with the flow of the rest of the elements. 
 
 ## Q5 - What is the most generic tag you can use?
+<div> because it defines just a section of the HTML document.
 
 ## Q6 - What do the following achronyms stand for?
 
