@@ -18,7 +18,7 @@ c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+A screenreader is a device used by those who are blind or have visual impairments to use the internet and a computer. It's important for a website to be designed such that the screenreader can read out the contents to its user. A website not designed for that not only violates Canadian law, but also makes the website and its content inaccessible to people who are blind or have visual impairments.
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
