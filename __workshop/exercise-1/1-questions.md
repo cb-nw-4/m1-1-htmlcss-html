@@ -40,7 +40,11 @@ And maybe some combination of <textarea>, <label>, and <button> to improve desig
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
+No, because you cannot nest interactive content descendant from a <button> tag.
+
 ## Q5 - What is the most generic tag you can use?
+
+<div>. It's generic in the sense that it's not semantic, and because it can be used to group any content together. 
 
 ## Q6 - What do the following achronyms stand for?
 
