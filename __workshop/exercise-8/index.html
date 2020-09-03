@@ -4,11 +4,11 @@
         <h1>Registration form</h1>
         <form>
             <label for="username">Username</label>
-            <input type="text" name="username" required />
+            <input type="text" name="username" placeholder="janedoe1" required/>
             <label for="password">Password</label>
-            <input type="password" name="password" required />
+            <input type="password" name="password" placeholder="••••••••" required />
             <label for="email">Email</label>
-            <input type="email" name="email" required />
+            <input type="email" name="email" placeholder="jane.doe@example.com" required />
             <h2>Which taxi do you require?</h2>
             <input type="radio" id="vehicle1" name="taxi" value="car" required>
             <label for="vehicle1">Car</label>
@@ -24,7 +24,7 @@
             <input type="checkbox" id="extra3" name="extra" value="privacy">
             <label for="extra3">Privacy Windows</label>
             <h2>Where would you like us to pick you up?</h2>
-            <label for="place">Choose a car:</label>
+            <label for="place">Pickup location :</label>
             <select name="place" id="place">
                 <option value="public">Public space</option>
                 <option value="home">Home</option>

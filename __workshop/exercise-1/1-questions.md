@@ -24,16 +24,16 @@ https://en.wikipedia.org/wiki/Screen_reader
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
-    <img>
+    img
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-    <ul> and <a>
+    ul and a
 
 c) You want to sell designer hats. You need to receive orders from the user.
-    <form>
+    form
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
-
+    No, the buttom is an interactive content which can not be parent of other elements like a, img...
 
 ## Q5 - What is the most generic tag you can use?
     <div>
@@ -65,19 +65,7 @@ g) `td` Data cells
     h1
 
 ## Q10 - In which situation can you use self closing tags?
-    <area /> – clickable area inside an image map
-    <base /> – new root or base path for relitive paths
-    <br /> – single line break in a paragraph
-    <embed /> – embeds things like flash
-    <hr /> – change in type of content
-    <iframe /> – frame inside the page
-    <img /> – image
-    <input /> – input field
-    <link /> – include an external style sheet
-    <meta /> – metadata about the page
-    <param /> – parameter for an object
-    <source /> – include media for video or audio
-    <track /> – text track for video or audio
+    area, base, br, embed, hr. iframe, img, input, link, meta, param, source, track.
 
 ## Q11 - What is autofilling and why is it important?
     Autofilling is he feature that helps the browser predict the input in a field. Example auto complete the address in an order form. This makes the user experience less tedious where he just needs to review the entry instead of typing the address.
