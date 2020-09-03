@@ -70,10 +70,14 @@ g) `td`
 Table data (or data cell)
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
+<table> –> your table structure
+<tr> –> your table row
 
 ## Q8 - What is the difference between td and th?
+<th> indicates a header, while <td> is used for table data cells. Because they are distinct, this allows users the ability to edit each one individually – ie. displaying the header text in a larger, coloured font.
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+
 
 ## Q10 - In which situation can you use self closing tags?
 
