@@ -18,7 +18,8 @@ c) [ true] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+It's a technology that converts text, images, and other screen elements into speech or braille. It's important because it provides accessibility to those who have visual impairments.
+Source: https://axesslab.com/what-is-a-screen-reader/
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
