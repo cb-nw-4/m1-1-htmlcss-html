@@ -86,6 +86,7 @@ g) `td` is a standard cell element specified within a <tr> in an HTML table (not
 Self-closing tags or void elements are that don't require a closing tag. These are elements such as 'img' or 'link'. You generally use them in situations where the structure of the element don't require a closing tag. For example, with an image tag, you include all necessary information to direct to the image in the element line. However, not all in-line elements are void elements.
 
 ## Q11 - What is autofilling and why is it important?
+Autofilling is the person designing the website and the browser's ability and permission to fill in field values that have been previously filled in. It's important to specify whether field values should be autofilled or not because sometimes field values are for sensitive information such as passwords. Autofilling is also important because it allows the user to save specific field value inputs in their browser and reuse them.
 
 ## Q12 - Which attributes are always present in an img element?
 
