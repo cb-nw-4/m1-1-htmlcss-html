@@ -49,18 +49,25 @@ No, because you cannot nest interactive content descendant from a <button> tag.
 ## Q6 - What do the following achronyms stand for?
 
 a) `a`
+Anchor
 
 b) `ol`
+Ordered list
 
 c) `ul`
+Unordered list
 
 d) `li`
+List item
 
 e) `tr`
+Table row
 
 f) `th`
+Table header
 
 g) `td`
+Table data (or data cell)
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
