@@ -71,6 +71,7 @@ No, it is not valid to put a <button> inside a <button> element. <button> tab sh
 
 
 ## Q5 - What is the most generic tag you can use?
+<div>
 
 ## Q6 - What do the following achronyms stand for?
 
