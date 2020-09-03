@@ -32,6 +32,8 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
+No, a button cannot be a button of a child. A button is interactive content, and you can't nest interactive content inside of other interactive content.
+
 ## Q5 - What is the most generic tag you can use?
 
 ## Q6 - What do the following achronyms stand for?
