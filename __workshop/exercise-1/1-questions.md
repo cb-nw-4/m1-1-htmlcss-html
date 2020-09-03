@@ -14,7 +14,7 @@ b) [false]
 </ol>
 ```
 
-c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [true] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
@@ -27,7 +27,7 @@ a) You want to create a webpage with the photos from your latest vacation
     img
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-    ul and a
+    ul, li and a
 
 c) You want to sell designer hats. You need to receive orders from the user.
     form
