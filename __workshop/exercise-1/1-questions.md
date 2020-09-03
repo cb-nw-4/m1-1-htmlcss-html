@@ -34,6 +34,8 @@ b) You want to create a website that lists all the art gallery websites in your 
 
 c) You want to sell designer hats. You need to receive orders from the user.
 
+<form>
+
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
 ## Q5 - What is the most generic tag you can use?
