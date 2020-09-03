@@ -25,10 +25,18 @@ A screen reader is a type of assistive technology that renders web content in al
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
+<img>
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+<ul> OR <ol>
+<li>
+<a>
 
 c) You want to sell designer hats. You need to receive orders from the user.
+<form>
+<input>
+
+And maybe some combination of <textarea>, <label>, and <button> to improve design and user experience. 
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
