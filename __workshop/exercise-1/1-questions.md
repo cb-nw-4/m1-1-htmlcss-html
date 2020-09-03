@@ -44,23 +44,27 @@ Source: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categori
 
 ## Q5 - What is the most generic tag you can use?
 
+<div>
+
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` - link
 
-b) `ol`
+b) `ol` - ordered list
 
-c) `ul`
+c) `ul` - unordered list
 
-d) `li`
+d) `li` - list item
 
-e) `tr`
+e) `tr` - table row
 
-f) `th`
+f) `th` - table header
 
-g) `td`
+g) `td` - cell in a table
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
+
+
 
 ## Q8 - What is the difference between td and th?
 
