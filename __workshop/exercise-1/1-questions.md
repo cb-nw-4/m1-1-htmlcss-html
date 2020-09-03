@@ -52,6 +52,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 </form>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+Since <button> is an inline element, it cannot be a parent. This is because the code is contained within the <button> line and don't break or interfere with the flow of the rest of the elements. 
 
 ## Q5 - What is the most generic tag you can use?
 
