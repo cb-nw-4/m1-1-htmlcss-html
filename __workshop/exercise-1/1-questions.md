@@ -18,7 +18,10 @@ c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+"Screen readers are software programs that allow blind or visually impaired users to read the text that is displayed on the computer screen with a speech synthesizer or braille display. A screen reader is the interface between the computer's operating system, its applications, and the user."
+https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers
+
+When coding, it is essential to use Semantic HTML so that we can ensure the accessiblity by the visually impared who are using a screenreader to read the text of the websites.
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
