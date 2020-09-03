@@ -67,6 +67,8 @@ c) You want to sell designer hats. You need to receive orders from the user.
 </html>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+No, it is not valid to put a <button> inside a <button> element. <button> tab should contain phrasing content. There must be no interactive content descendant and no descendant with the tabindex attribute specified.
+
 
 ## Q5 - What is the most generic tag you can use?
 
