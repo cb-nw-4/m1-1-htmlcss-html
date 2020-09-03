@@ -68,7 +68,8 @@ _They are almost the same but th is used for table header and td is used for fil
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 _h1_
 ## Q10 - In which situation can you use self closing tags?
-__
+_Self closing tags can be used when there is a lack of content between an opening and closing tag_
+
 ## Q11 - What is autofilling and why is it important?
 
 ## Q12 - Which attributes are always present in an img element?
