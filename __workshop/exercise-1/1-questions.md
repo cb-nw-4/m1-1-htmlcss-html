@@ -26,7 +26,11 @@ Screen readers dictate the contents of a web page. They are used by the visually
 
 a) You want to create a webpage with the photos from your latest vacation
 
+<img>
+
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+
+<ul>, <a>
 
 c) You want to sell designer hats. You need to receive orders from the user.
 
