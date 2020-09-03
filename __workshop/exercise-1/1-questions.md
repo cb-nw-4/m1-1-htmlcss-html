@@ -6,7 +6,7 @@ Type true/false in the provided [ ].
 
 a) [true] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [ false]
 
 ```html
 <ul>
