@@ -89,5 +89,6 @@ Self-closing tags or void elements are that don't require a closing tag. These a
 Autofilling is the person designing the website and the browser's ability and permission to fill in field values that have been previously filled in. It's important to specify whether field values should be autofilled or not because sometimes field values are for sensitive information such as passwords. Autofilling is also important because it allows the user to save specific field value inputs in their browser and reuse them.
 
 ## Q12 - Which attributes are always present in an img element?
+src and alt, which give the path to the image and the image description respectively.
 
 ## Q13 - Which attribute is always present for an anchor tag?
