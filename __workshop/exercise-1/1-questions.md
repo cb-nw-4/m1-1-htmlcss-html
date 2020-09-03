@@ -33,6 +33,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 _To start with <form></form> is used, and within form tag the page will use <label> tag and <input> tag for various entries in various formats (types texts, checkboxes, radio buttons). Finally for submission <input> with type button will be used._
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+_The button tag cannot be a child of another button tag. Nested buttons are not supported by HTML alone as it was tested, and it lost the functionality._
 
 ## Q5 - What is the most generic tag you can use? 
 _html, body, p, a_
