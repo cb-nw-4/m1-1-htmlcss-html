@@ -48,7 +48,7 @@ Source: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categori
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a` - link
+a) `a` - anchor
 
 b) `ol` - ordered list
 
@@ -64,16 +64,28 @@ g) `td` - cell in a table
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
-
+`td` elements are usually children of `tr` elements, which in turn are children of `table` elements.
 
 ## Q8 - What is the difference between td and th?
 
+th is the header of a table, usually placed at the top of a column. th elements are bold and centered by default. td is a regular cell within the table. td elements are left aligned by default.
+
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+
+h1
 
 ## Q10 - In which situation can you use self closing tags?
 
+Self closing tags are used when an HTML elements does not need to be closed out. A common example is an image; `img` tags don't need to be closed.
+
 ## Q11 - What is autofilling and why is it important?
+
+Autofilling allows the browser to predict the value of a form or input field based on earlier typed values. This allows users to fill out forms faster than if they had to completely type out their responses.
 
 ## Q12 - Which attributes are always present in an img element?
 
+src, alt
+
 ## Q13 - Which attribute is always present for an anchor tag?
+
+href
