@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [true] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [false]
 
 ```html
 <ul>
@@ -14,11 +14,13 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
 _Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+
+Screen readers dictate the contents of a web page. They are used by the visually impaired. We should keep them in mind in order to ensure that a web page is designed with maximum accessibility.
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
