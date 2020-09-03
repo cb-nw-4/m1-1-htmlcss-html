@@ -56,9 +56,15 @@ g) `td` - data cell in a table
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
+    <tr> 
+
 ## Q8 - What is the difference between td and th?
 
+    <th> would be the header at the top of a data table and <td> would be an actual data cell
+
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+
+    <h1>
 
 ## Q10 - In which situation can you use self closing tags?
 
