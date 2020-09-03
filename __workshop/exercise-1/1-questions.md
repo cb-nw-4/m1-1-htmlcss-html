@@ -92,3 +92,4 @@ Autofilling is the person designing the website and the browser's ability and pe
 src and alt, which give the path to the image and the image description respectively.
 
 ## Q13 - Which attribute is always present for an anchor tag?
+href to give the link
