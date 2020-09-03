@@ -57,6 +57,7 @@ f) `th`
 _table header_
 
 g) `td`
+_table cell_
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 _'td' elements are children of 'tr' element_
