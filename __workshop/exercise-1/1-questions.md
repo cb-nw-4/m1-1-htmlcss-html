@@ -26,10 +26,45 @@ When coding, it is essential to use Semantic HTML so that we can ensure the acce
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <img>
+        <img>
+        <img>
+    </body>
+</html>
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <a></a>
+        <a></a>
+        <a></a>
+    </body>
+</html>
 
 c) You want to sell designer hats. You need to receive orders from the user.
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <image> <!-- This is to show the image of the hat I want to sell -->
+        <p></p> <!-- Description of the hat, prices etc. -->
+        <form>
+            <input></input> <!-- Customer info, which hat to buy etc. -->
+            <input></input> 
+            <input></input> 
+            <button></button> <!-- To submit the order -->
+        </form>
+    </body>
+</html>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
