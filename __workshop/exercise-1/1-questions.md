@@ -59,19 +59,19 @@ Since <button> is an inline element, it cannot be a parent. This is because the 
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` is an anchor element, used for creating hyperlinks to other websites
 
-b) `ol`
+b) `ol` is an ordered list, which creates a numbered list
 
-c) `ul`
+c) `ul` is an unordered list, which creates a bullet point list
 
-d) `li`
+d) `li` is a list item and defines each item contained in an ordered or unordered list
 
-e) `tr`
+e) `tr` is a row in an HTML table
 
-f) `th`
+f) `th` is a header in an HTML table
 
-g) `td`
+g) `td` is a standard cell element specified within a <tr> in an HTML table
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
