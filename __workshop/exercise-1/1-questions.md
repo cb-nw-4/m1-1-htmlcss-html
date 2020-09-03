@@ -36,6 +36,8 @@ No, a button cannot be a button of a child. A button is interactive content, and
 
 ## Q5 - What is the most generic tag you can use?
 
+<div> is pretty generic.
+
 ## Q6 - What do the following achronyms stand for?
 
 a) `a` - url
@@ -44,13 +46,13 @@ b) `ol` - ordered list
 
 c) `ul` - unordered list
 
-d) `li`
+d) `li` - list element
 
-e) `tr`
+e) `tr` - table row
 
-f) `th`
+f) `th` - header cell in a table
 
-g) `td`
+g) `td` - data cell in a table
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
