@@ -77,9 +77,10 @@ Table data (or data cell)
 <th> indicates a header, while <td> is used for table data cells. Because they are distinct, this allows users the ability to edit each one individually – ie. displaying the header text in a larger, coloured font.
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
-
+h1
 
 ## Q10 - In which situation can you use self closing tags?
+Self-closing tags represent void elements. In other words, they do not contain any content. ie. <img>
 
 ## Q11 - What is autofilling and why is it important?
 
