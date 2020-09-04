@@ -72,5 +72,6 @@ For void elements, like images and links.
 Autocomplete predicts what a user is trying to write and it's important because it improves the user experience by providing better and faster search results. 
 
 ## Q12 - Which attributes are always present in an img element?
+src
 
 ## Q13 - Which attribute is always present for an anchor tag?
