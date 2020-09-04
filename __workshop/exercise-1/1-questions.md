@@ -24,18 +24,18 @@ Source: https://axesslab.com/what-is-a-screen-reader/
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
-<img/>
+img
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-<ul>, <li>, <a>
+ul, li, a
 c) You want to sell designer hats. You need to receive orders from the user.
-<form>, <input>
+form, input
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 No, buttons not permitted to contain other interactive content. You can't have a button inside a button.
 Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
 ## Q5 - What is the most generic tag you can use?
-<p>
+p
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -55,7 +55,7 @@ g) `td`: table data
 Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
-<tr>
+tr
 Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
 
 ## Q8 - What is the difference between td and th?
@@ -63,10 +63,10 @@ In a HTML table, <td> defines a data cell while <th> defines a header cell (cont
 Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
-<h1>
+h1
 
 ## Q10 - In which situation can you use self closing tags?
-For void elements, like images and links.
+For void elements, like images.
 
 ## Q11 - What is autofilling and why is it important?
 Autocomplete predicts what a user is trying to write and it's important because it improves the user experience by providing better and faster search results. 
