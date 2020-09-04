@@ -30,11 +30,11 @@ https://webaim.org/techniques/screenreader/
 
 a) You want to create a webpage with the photos from your latest vacation
 
-The tag to insert an image is <img>. After that there are many ways to retrieve the picture, like from a source or from the computer.
+The tag to insert an image is img. After that there are many ways to retrieve the picture, like from a source or from the computer.
 
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-The tag to create a link to the website is <a>. 
+The tag to create a link to the website is a. 
 
 c) You want to sell designer hats. You need to receive orders from the user.
 In order to receive information from user, the form tag can be used.
