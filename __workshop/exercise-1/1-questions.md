@@ -35,6 +35,7 @@ b) You want to create a website that lists all the art gallery websites in your 
 The tag to create a link to the website is <a>. It is written as: <a href="https://github.com">GitHub</a>
 
 c) You want to sell designer hats. You need to receive orders from the user.
+In order to receive information from user, the form tag can be used.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
