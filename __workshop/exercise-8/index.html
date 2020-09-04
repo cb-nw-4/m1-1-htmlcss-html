@@ -1,1 +1,36 @@
-<!-- ...crickets... -->
+<html>
+<body>
+<h1>Registration form</h1>
+<form>
+<label for="Username">Username</label> 
+<input type="text" id="Username" name="password" required />
+<label for="password">password</label> 
+<input type="password" id="password" name= "password" required />
+<label for="email">Email</label> 
+<input type="email" id="email" name="email" required />
+<h3>Which taxi do you require?</h3>
+<input type="radio" id="car" name="taxi" value="car" required>
+<label for="car">Car</label>
+<input type="radio" id="van" name="taxi" value="van">
+<label for="van">Van</label>
+<input type="radio" id="tuktuk" name="taxi" value="tuktuk">
+<label for="tuktuk">Tuk Tuk</label>
+<h3>Choose your extras</h3>
+<input type="checkbox" id="extra1" name="extra1" value="Baby seat">
+<label for="extra1">Baby seat</label>
+<input type="checkbox" id="extra2" name="extra2" value="Wheelchair">
+<label for="extra2">Wheelchair access</label>
+<input type="checkbox" id="extra3" name="extra3" value="windows">
+<label for="extra3">Privacy windows</label>
+<h3>Where would you like us to pick you up?</h3>
+<label for="location">Pickup Location:</label>
+<select name="location" id="location">
+    <option value="default">Select one</option>
+</select>
+<h3>Additional Instructions</h3>
+<label for="special">Special</label>
+<textarea id="special" name="special" rows="3" cols="20" placeholder="provide special instructions here"></textarea>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
