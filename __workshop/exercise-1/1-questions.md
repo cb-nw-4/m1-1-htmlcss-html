@@ -47,19 +47,19 @@ A button cannot be a child of a button, but it is possible to set the button’s
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` anchor
 
-b) `ol`
+b) `ol` ordered list (numbers or alphabet)
 
-c) `ul`
+c) `ul` unordered list (bullet) 
 
-d) `li`
+d) `li` list item 
 
-e) `tr`
+e) `tr` table row 
 
-f) `th`
+f) `th` table header
 
-g) `td`
+g) `td` data cell
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
