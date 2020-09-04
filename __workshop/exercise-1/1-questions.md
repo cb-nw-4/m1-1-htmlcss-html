@@ -83,4 +83,6 @@ The autocomplete can predict and display what the user wants to type in a field.
 
 ## Q12 - Which attributes are always present in an img element?
 
+src
+
 ## Q13 - Which attribute is always present for an anchor tag?
