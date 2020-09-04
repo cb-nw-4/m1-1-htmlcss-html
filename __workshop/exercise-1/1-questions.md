@@ -31,15 +31,15 @@ Our web application or web page also needs to fits the requirement of the The Ac
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
-You will use <figure> tag. In the figure tag you will use <img> and <figcaption>.
+You will use 'figure' tag. In the figure tag you will use 'img' and 'figcaption' tag.
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-Main answer: to make the hyperlink use <a>
-You can also use <ul><li> to list all the link to the gallery.
+Main answer: to make the hyperlink use 'a'tag. 
+You can also use 'ul' and 'li' to list all the link to the gallery.
 
 c) You want to sell designer hats. You need to receive orders from the user.
-Main answer: <form> 
-In the form tag you use others tags like <label>, <input>.
+Main answer: 'form' tag. 
+In the form tag you use others tags like 'label', 'input'.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 It is not valid to put a button tag inside a button tag. You can add phrasing content like text inside a button tag but not an interactive content and a button is an interactive content. So a button can't be a child of a button. And having a button inside a button would be a little weird :-). 
@@ -73,7 +73,7 @@ The td element is a cell in a table that contain data and a th element is a head
 h1
 
 ## Q10 - In which situation can you use self closing tags?
-A self closing tag are HTML element that doesn't have a closing tag, they are called void-element. For exemple the <img> tag is a self closing tag. We only put the image in there and nothing else, the image have no other content then itself. There is many self closing tag, like <link>, <input> ...
+A self closing tag are HTML element that doesn't have a closing tag, they are called void-element. For exemple the 'img' tag is a self closing tag. We only put the image in there and nothing else, the image have no other content then itself. There is many self closing tag, like 'link', 'input' ...
 
 ## Q11 - What is autofilling and why is it important?
 There is an autocompleted attribute that we can use in input, select, textarea and form element. It can facilitate the life of the user by giving assistance in filling a form. It can for exemple gives the previous value a user put in the form, or some pre-configure value like usual name and addresse, so he doesnt need to type it all over again. 
