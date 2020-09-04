@@ -32,6 +32,7 @@ The tag to insert an image is <img>. After that there are many ways to retrieve 
 
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+The tag to create a link to the website is <a>. It is written as: <a href="https://github.com">GitHub</a>
 
 c) You want to sell designer hats. You need to receive orders from the user.
 
