@@ -4,16 +4,21 @@
     <h2>Registration form</h2>
   <form>
       <label for="username">Username</label>
-      <input type="text">
+      <input type="text" id="username" name="username">
       <label for="password">password</label>
-      <input type="text">
+      <input type="text" id="password" name="password">
       <label for="email">Email</label>
-      <input type="text">
+      <input type="text" id="email" name="email">
       </label>
   </form>
   <h3>Which taxi do you require?</h3>
   <form>
-      
+      <input type="radio" id="car" name="taxi" value="car">
+      <label for="car">Car</label>
+      <input type="radio" id="van" name="taxi" value="van">
+      <label for="van">Van</label>
+      <input type="radio" id="tuk tuk" name="taxi" value="tuk tuk">
+      <label for="tuk tuk">Tuk Tuk</label>
   </form>
   </body>  
 </html>
