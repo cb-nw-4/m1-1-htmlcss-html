@@ -1,1 +1,36 @@
 <!-- ...crickets... -->
+<h1>Registration form</h1>
+<form action="">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" required>
+    <label for="pword">Password</label>
+    <input type="password" id="pword" name="password" minlength="8" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <h2>Which taxis do you require?</h2>    
+    <input type="radio" name="taxis" id="car" value="Car" required> 
+    <label for="car">Car</label>
+    <input type="radio" name="taxis" id="van" value="Van" required> 
+    <label for="van">Van</label>
+    <input type="radio" name="taxis" id="tuktuk" value="Tuk tuk" required>
+    <label for="tuktuk">Tuk tuk</label>
+    <h2>Choose your extras</h2>    
+    <input type="checkbox" id="extraBabySeat" name="extra" value="babySeat">
+    <label for="extraBabySeat">Baby seat</label>
+    <input type="checkbox" id="extraWheelchair" name="extra" value="wheelchair">
+    <label for="extraWheelchair">Wheelchair</label>
+    <input type="checkbox" id="extraPrivacy" name="extra" value="privacyWindows">
+    <label for="extraPrivacy">Privacy windows</label>
+    <h2>Where would you like us to pick you up?</h2>  
+    <label for="pickup">Pickup location:</label>
+    <select name="pickup" id="pickup">
+        <option value="none" selected disabled hidden>Select One</option>
+        <option value="volvo">Metro Berri</option>
+        <option value="saab">Metro Vendome</option>
+        <option value="mercedes">Metro Bonnaventure</option>    
+    </select>  
+    <h2>Additional instructions</h2>      
+    <label for="addInstructions">Special</label>
+    <textarea id="addInstructions" name="addInstructions" rows="2" cols="25">Provide special instructions here:</textarea> 
+    <input type="submit" value="Submit">
+</form>
