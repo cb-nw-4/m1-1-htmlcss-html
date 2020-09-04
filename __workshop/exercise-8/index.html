@@ -1,1 +1,48 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<htmt>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+            <label for="password">password</label>
+            <input type="text" id="password" required />
+            <label for="email">Email</label>
+            <input type="text" id="email" required />
+        </form>
+        <h2>Which taxi do you require?</h2>
+        <form>
+            <input type="radio" id="car" value="car" required /> 
+            <label for="car">Car</label>
+            <input type="radio" id="van" value="van"required />
+            <label for="van">Van</label>
+            <input type="radio" id="tuktuk" value="tuktuk" required />
+            <label for="tuktuk">Tuk Tuk</label>
+        </form>
+        <h2>Choose your extras</h2>
+        <form>
+            <input type="checkbox" id="baby-seat" value="baby-seat">
+            <label for="baby-seat">Baby seat</label>
+            <input type="checkbox" id="wheelchair-access" value="wheelchair-access"> 
+            <label for="wheelchair-access">Wheelchair access</label>   
+            <input type="checkbox" id="privacy-windows" value="privacy-windows"> 
+            <label for="privacy-windows">Privacy windows</label>
+        </form>
+        <h2>Where would you like us to pick you up?</h2>
+        <form>
+            <label for="locations">Pickup location:</label>
+            <select id="locations">
+                <option value="" disabled selected>Select One</option>
+                <option value="location-one">Location One</option>
+                <option value="location-two">Location Two</option>
+                <option value="location-three">Location Three</option>
+            </select>
+        </form>
+        <h2>Additional instructions</h2>
+        <form>
+            <label>Special</label>
+            <textarea placeholder="provide special instructions here"></textarea>
+            <input type="submit">
+        </form>
+    </body>
+</htmt>
