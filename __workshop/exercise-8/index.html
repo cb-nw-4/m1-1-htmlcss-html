@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>HTML Workshop Exercise 8</title>
     </head>
@@ -7,17 +7,17 @@
         <h1>Registration Form</h1>
         <form>
             <label for="username">Username</label>
-            <input type="text" id="username" name="username" value="Username">
+            <input type="text" id="username" name="username" required>
             <label for="password">password</label>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="password" required>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" value="abc@def.com">
+            <input type="email" id="email" name="email" required>
             <h2>Which taxi do you require?</h2>
-            <input type="radio" id="car" name="type" value="car">
+            <input type="radio" id="car" name="type" value="car" required>
             <label for="car">Car</label>
-            <input type="radio" id="van" name="type" value="van">
+            <input type="radio" id="van" name="type" value="van" required>
             <label for="van">Van</label>
-            <input type="radio" id="tuktuk" name="type" value="tuktuk">
+            <input type="radio" id="tuktuk" name="type" value="tuktuk" required>
             <label for="tuktuk">Tuk Tuk</label>
             <h2>Choose your extras</h2>
             <input type="checkbox" id="extra1" name="extra1" value="baby">
@@ -28,7 +28,7 @@
             <label for="extra3">Privacy windows</label>
             <h2>Where would you like us to pick you up?</h2>
             <label for="location">Pickup Location:</label>
-            <select id="location" name="location">
+            <select id="location" name="location" required>
                 <option value="" disabled selected hidden>Select One</option>
                 <option value="Home">Home</option>
                 <option value="Work">Work</option>
