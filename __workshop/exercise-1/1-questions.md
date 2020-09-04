@@ -103,6 +103,7 @@ https://www.lifewire.com/difference-between-th-and-td-html-table-tags-3469866
 h1
 
 ## Q10 - In which situation can you use self closing tags?
+A self-closing tag is a special kind of HTML tag that does not have a closing tag counterpart. It means that the tag has no content. Some examples of self closing tags are: <meta>, <input>, <image>
 
 ## Q11 - What is autofilling and why is it important?
 
