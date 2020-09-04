@@ -1,1 +1,60 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Registration form</h1>
+
+<form>
+  <label for="username">Username</label>
+  <input type="text" id="username" name="username">
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password">
+  <label for="email">Email</label>
+  <input type="text" id="email" name="email">
+</form>
+<br>
+<h2>Which taxi do you require?</h2>
+<form>
+  <input type="radio" id="car" name="taxi" value="car">
+  <label for="car">Car</label>
+  <input type="radio"id="van" name="taxi" value="van">
+  <label for="van">Van</label>
+  <input type="radio"id="tuktuk" name="taxi" value="tuktuk">
+  <label for="tuktuk">Tuk Tuk</label>
+</form> 
+
+<h2>Choose your extras</h2>
+<form>
+  <input type="checkbox" id="babyseat" name="babyseat" value="extra1">
+  <label for="babyseat">Baby seat</label>
+  <input type="checkbox" id="wheelchair" name="checkbox" value="extra2">
+  <label for="wheelchair">wheelchair access</label>
+  <input type="checkbox" id="windows" name="checkbox" value="extra3">
+  <label for="windows">Privacy windows</label>
+</form>
+
+<h2>Where would you like us to pick you up?</h2>
+<form>
+  <label for="location">Pickup Location:</label>
+  <select name="location" id="location">
+    <option value="default">Select One</option>
+    <option value="airport">Airport</option>
+    <option value="hotel">Hotel Caramilla</option>
+    <option value="bingo">Public drag bingo at Your Highness</option>
+  </select>
+  <br><br>
+ 
+</form>
+
+<h2>Additional instructions</h2>
+<form>
+	<label for="message">Special</label>
+	<textarea id="message" name="message" rows="2" cols="20"placeholder="Provide special instructions here" ></textarea>
+  <br>
+
+ <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
