@@ -83,7 +83,10 @@ h1
 Self-closing tags represent void elements. In other words, they do not contain any content. ie. <img>
 
 ## Q11 - What is autofilling and why is it important?
+The autocomplete attribute is available on <input> elements that take a text or numeric input. It indicates whether input elements can by default have their values automatically completed by the browser. It is useful because it can provide guidance to the browser about the type of information that's expected, and the browser may allow a user to save specific data (ie. their name, address, etc) for autocomplete purposes. 
 
 ## Q12 - Which attributes are always present in an img element?
+The src attribute is required. The alt attribute is not mandatory but it is highly recommended. 
 
 ## Q13 - Which attribute is always present for an anchor tag?
+The href attribute.
