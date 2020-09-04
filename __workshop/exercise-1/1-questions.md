@@ -59,6 +59,8 @@ Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td
 
 ## Q8 - What is the difference between td and th?
+In a HTML table, <td> defines a data cell while <th> defines a header cell (contains header information).
+Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
