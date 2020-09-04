@@ -77,3 +77,4 @@ _Assumption is made for Autocomplete because there is no attribute or tag named 
 _src to dictate the source of the image. height and width to dictate the size of the image._
 
 ## Q13 - Which attribute is always present for an anchor tag?
+_href is always present for an anchor tag._
