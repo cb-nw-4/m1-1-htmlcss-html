@@ -111,3 +111,4 @@ A self-closing tag is a special kind of HTML tag that does not have a closing ta
 'src' attribute and 'alt' attribute
 
 ## Q13 - Which attribute is always present for an anchor tag?
+'href' attribute
