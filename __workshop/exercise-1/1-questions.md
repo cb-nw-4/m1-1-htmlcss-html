@@ -40,10 +40,9 @@ You can also use <ul><li> to list all the link to the gallery.
 c) You want to sell designer hats. You need to receive orders from the user.
 Main answer: <form> 
 In the form tag you use others tags like <label>, <input>.
-You will probably have to add a <button> tag as well. 
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
-It is not valid to put a button tag inside a button tag. You can add phrasing content inside a button tag but not an interactive content and a button is an interactive content. So a button can't be a child of a button. And having a button inside a button would be a little weird :-). 
+It is not valid to put a button tag inside a button tag. You can add phrasing content like text inside a button tag but not an interactive content and a button is an interactive content. So a button can't be a child of a button. And having a button inside a button would be a little weird :-). 
 
 ## Q5 - What is the most generic tag you can use?
 <div>
