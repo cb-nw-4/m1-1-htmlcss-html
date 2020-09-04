@@ -14,7 +14,7 @@ b) [false]
 </ol>
 ```
 
-c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [true] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
@@ -28,13 +28,13 @@ _Feel free to use the powers of Google here, but please provide link(s) to your 
 a) You want to create a webpage with the photos from your latest vacation 
 <img src=>
 b) You want to create a website that lists all the art gallery websites in your city and links to their website. 
-<a href=>
+<a href=> <ul> <li>
 c) You want to sell designer hats. You need to receive orders from the user.
-
+<input>
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
-
+no, they are sibling
 ## Q5 - What is the most generic tag you can use?
-<div>, <p>
+ <h1>
 ## Q6 - What do the following achronyms stand for?
 
 a) `a` anchor
@@ -49,7 +49,7 @@ e) `tr` table row
 
 f) `th`table header 
 
-g) `td`table standard 
+g) `td`table data 
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 tr
