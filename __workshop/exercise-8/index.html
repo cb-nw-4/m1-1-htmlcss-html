@@ -1,1 +1,52 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <form>
+    <h1>Registration form</h1>
+        <label for="username">Username</label>
+        <input type="text" id="username" required>
+        <label for="password">password</label>
+        <input type="text" id="password" required>
+        <label for="email">Email</label>
+        <input type="text" id="email" required> 
+    
+    <h2>Which taxi do you require?</h2>
+        <input type="radio" id="car" name="taxi" value="car" required>
+        <label for="car">Car</label>
+        <input type="radio" id="van" name="taxi" value="van" required>
+        <label for="van">Van</label>
+        <input type="radio" id="tuktuk" name="taxi" value="tuktuk" required>
+        <label for="tuktuk">Tuk Tuk</label>
+
+
+<h2>Choose your extras</h2>
+    <input type="checkbox" id="babyseat" name="extras" value="babyseat">
+    <label for="babyseat">Baby seat</label>
+    <input type="checkbox" id="wheelchair" name="extras" value="wheelchair">
+    <label for="wheelchair">Wheelchair access</label>
+    <input type="checkbox" id="pwindow" name="extras" value="pwindow">
+    <label for="pwindow">Privacy windows</label>
+
+
+<h2>Where would you like us to pick you up?</h2>
+<label for="plocation">Pickup Location:</label>
+<select name="plocation" id="plocation">
+    <option value="default">Select One</option>
+    <option value="downtown">Downtown</option>
+    <option value="lasalle">LaSalle</option>
+    <option value="dorval">Dorval</option>
+    <option value="laval">Laval</option>
+</select>
+
+<h2>Additional Instructions</h2>    
+<label for="specialinstructions">Special</label>
+<textarea id="specialinstructions" name="specialinstructions" rows="2" cols="30">
+provide special instructions here
+</textarea>
+
+<input type="submit" value="Submit">
+</form>
+
+  </body>
+</html>
