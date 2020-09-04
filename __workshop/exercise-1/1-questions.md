@@ -108,5 +108,6 @@ A self-closing tag is a special kind of HTML tag that does not have a closing ta
 ## Q11 - What is autofilling and why is it important?
 
 ## Q12 - Which attributes are always present in an img element?
+'src' attribute and 'alt' attribute
 
 ## Q13 - Which attribute is always present for an anchor tag?
