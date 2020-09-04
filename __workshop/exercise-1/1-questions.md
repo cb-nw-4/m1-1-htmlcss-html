@@ -34,7 +34,7 @@ The tag to insert an image is <img>. After that there are many ways to retrieve 
 
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
-The tag to create a link to the website is <a>. It is written as: <a href="https://github.com">GitHub</a>
+The tag to create a link to the website is <a>. 
 
 c) You want to sell designer hats. You need to receive orders from the user.
 In order to receive information from user, the form tag can be used.
@@ -43,7 +43,7 @@ In order to receive information from user, the form tag can be used.
 A button cannot be a child of a button, but it is possible to set the button’s an attribute. 
 ## Q5 - What is the most generic tag you can use?
 
-<div>, <p>
+div, p
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -62,6 +62,8 @@ f) `th` table header
 g) `td` data cell
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
+
+tr
 
 ## Q8 - What is the difference between td and th?
 
