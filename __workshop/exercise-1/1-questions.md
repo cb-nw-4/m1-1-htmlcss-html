@@ -93,6 +93,11 @@ g) `td` table data
 'table' element and 'tr' element
 
 ## Q8 - What is the difference between td and th?
+The <td> tag, or "table data" tag, creates table cells within a table row in an HTML table. This is the HTML tag that contains the content (any text and images) of the HTML table.
+
+The <th> tag, or "table header," is similar to the <td> in many ways. It can contain the same kind of information (although we wouldn't put an image in a <th>), but it defines that specific cell as a table header.
+The <th> tag should be used when we want to designate the content in the cell as a header for that column or row.
+https://www.lifewire.com/difference-between-th-and-td-html-table-tags-3469866
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
