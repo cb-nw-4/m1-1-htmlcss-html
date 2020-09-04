@@ -38,7 +38,7 @@ c) You want to sell designer hats. You need to receive orders from the user.
 In order to receive information from user, the form tag can be used.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
-
+A button cannot be a child of a button, but it is possible to set the button’s an attribute. 
 ## Q5 - What is the most generic tag you can use?
 
 ## Q6 - What do the following achronyms stand for?
