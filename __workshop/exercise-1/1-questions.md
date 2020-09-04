@@ -105,11 +105,8 @@ h1
 ## Q10 - In which situation can you use self closing tags?
 A self-closing tag is a special kind of HTML tag that does not have a closing tag counterpart. It means that the tag has no content. Some examples of self closing tags are: <meta>, <input>, <image>
 
-## Q11 - What is autocomplete and why is it important?
-Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values. 
-
-While this means that users don’t have to repeatedly enter their personal information, the autocomplete feature can become a liability once attackers gain access to our computers or the browsers in use. The HTML autocomplete attribute becomes important because it allows web developers to turn on/off the autocomplete feature and control whether sensitive data entered in the form and input elements will be stored in the user’s browser cache.
-
+## Q11 - What is autocfilling and why is it important?
+Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values. While this means that users don’t have to repeatedly enter their personal information, the autocomplete feature can become a liability once attackers gain access to our computers or the browsers in use. The HTML autocomplete attribute becomes important because it allows web developers to turn on/off the autocomplete feature and control whether sensitive data entered in the form and input elements will be stored in the user’s browser cache.
 
 ## Q12 - Which attributes are always present in an img element?
 'src' attribute and 'alt' attribute
