@@ -79,6 +79,8 @@ When there are no content in the middle. For example, br, hr.
 
 ## Q11 - What is autofilling and why is it important?
 
+The autocomplete can predict and display what the user wants to type in a field. It is important since it saves data.
+
 ## Q12 - Which attributes are always present in an img element?
 
 ## Q13 - Which attribute is always present for an anchor tag?
