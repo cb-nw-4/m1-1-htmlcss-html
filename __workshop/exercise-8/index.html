@@ -1,1 +1,44 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <label for="inUsername">Username</label>
+            <input type="text" id="inUsername" name="username" required alt="Enter a username">
+            <label for="inPassword">password</label>
+            <input type="text" id="inPassword" name="password" required alt="Enter a password">
+            <label for="inEmail">Email</label>
+            <input type="text" id="inEmail" name="email" required alt="Enter an email adress">
+        <h2>Which taxi do you require?</h2>
+            <input type="radio" id="car" name="taxi" value="car" required>
+            <label for="car">Car</label>
+            <input type="radio" id="van" name="taxi" value="van">
+            <label for="van">Van</label>
+            <input type="radio" id="tuktuk" name="taxi" value="tuktuk">
+            <label for="tuktuk">Tuk Tuk</label>
+        <h2>Choose your extras</h2>
+            <input type="checkbox" id="babySeat" name="extras" value="babyseat">
+            <label for="babySeat">Baby seat</label>
+            <input type="checkbox" id="wheelchair" name="extras" value="wheelchair">
+            <label for="wheelchair">Wheelchair access</label>
+            <input type="checkbox" id="privacy" name="extras" value="privacy">
+            <label for="privacy">Privacy windows</label>
+
+        <h2>Where would you like us to pick you up?</h2>
+            <label for="location">Pickup location:</label>
+            <select id="pickUp" name="location" >
+                <option value="" selected disabled hidden>Select one</option>
+                <option value="home">Home</option>
+                <option value="metroStation">Metro station</option>
+                <option value="hospital">XYZ Hospital</option>
+            </select>
+
+        <h2>Additionnal instructions</h2>
+            <label for="instructions">Special</label>
+            <textarea id="instructions" name="instructions">provide special instructions here</textarea>
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </body>
+</html>
