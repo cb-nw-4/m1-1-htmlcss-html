@@ -1,1 +1,44 @@
-<!-- ...crickets... -->
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="" method="POST">
+            <label for="username">Username</label>
+            <input type="text" required id="username" name="username">
+            <label for="password">Password</label>
+            <input type="password" required id="password" name="password">
+            <label for="email">Email</label>
+            <input type="email" required id="email" name="email">
+
+            <h2>Which taxi do you require?</h2>
+            <label for="car">Car</label>
+            <input type="radio" required id="car" name="taxi">
+            <label for="van">Van</label>
+            <input type="radio" required id="van" name="taxi">
+            <label for="tukTuk">Tuk Tuk</label>
+            <input type="radio" required id="tukTuk" name="taxi">
+
+            <h2>Choose your extras</h2>
+            <label for="babySeat">Baby Seat</label>
+            <input type="checkbox" id="babySeat" name="extra">
+            <label for="wheelchairAccess">Wheelchair Access</label>
+            <input type="checkbox" id="wheelchairAccess" name="extra">
+            <label for="privacyWindows">Privacy Windows</label>
+            <input type="checkbox" id="privacyWindows" name="extra">
+
+            <h2>Where would you like us to pick you up?</h2>
+                <label for="dropdown">Pickup Location:</label>
+                <select name="pickupLocation" id="pickupLocation">
+                    <option value="selectOne">Select One</option>
+                    <option value="terminal1">Terminal One</option>
+                    <option value="terminal2">Terminal Two</option>
+                    <option value="terminal3">Terminal Three</option>
+                </select>
+
+            <h2>Additional Instructions</h2>
+            <label for="specialInstructions">Special</label>
+            <textarea>provide special instructions here</textarea>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
