@@ -66,6 +66,7 @@ Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 <h1>
 
 ## Q10 - In which situation can you use self closing tags?
+For void elements, like images and links.
 
 ## Q11 - What is autofilling and why is it important?
 
