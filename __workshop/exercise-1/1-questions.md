@@ -31,6 +31,8 @@ c) You want to sell designer hats. You need to receive orders from the user.
 <form>, <input>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+No, buttons not permitted to contain other interactive content. You can't have a button inside a button.
+Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 
 ## Q5 - What is the most generic tag you can use?
 
