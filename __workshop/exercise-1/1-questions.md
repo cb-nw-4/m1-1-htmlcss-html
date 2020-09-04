@@ -43,6 +43,8 @@ In order to receive information from user, the form tag can be used.
 A button cannot be a child of a button, but it is possible to set the button’s an attribute. 
 ## Q5 - What is the most generic tag you can use?
 
+<div>, <p>
+
 ## Q6 - What do the following achronyms stand for?
 
 a) `a`
