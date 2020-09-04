@@ -1,1 +1,42 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Workshop Exercise 8</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" value="Username">
+            <label for="password">password</label>
+            <input type="password" id="password" name="password">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="abc@def.com">
+            <h2>Which taxi do you require?</h2>
+            <input type="radio" id="car" name="type" value="car">
+            <label for="car">Car</label>
+            <input type="radio" id="van" name="type" value="van">
+            <label for="van">Van</label>
+            <input type="radio" id="tuktuk" name="type" value="tuktuk">
+            <label for="tuktuk">Tuk Tuk</label>
+            <h2>Choose your extras</h2>
+            <input type="checkbox" id="extra1" name="extra1" value="baby">
+            <label for="extra1">Baby seat</label>
+            <input type="checkbox" id="extra2" name="extra2" value="wheelchair">
+            <label for="extra2">Wheelchair access</label>
+            <input type="checkbox" id="extra3" name="extra3" value="privacy">
+            <label for="extra3">Privacy windows</label>
+            <h2>Where would you like us to pick you up?</h2>
+            <label for="location">Pickup Location:</label>
+            <select id="location" name="location">
+                <option value="" disabled selected hidden>Select One</option>
+                <option value="Home">Home</option>
+                <option value="Work">Work</option>
+            </select>
+            <h2>Additional Instructions</h2>
+            <label for="instructions">Special</label>
+            <textarea id="instructions" name="instructions" rows="2" cols="20">provide special instructions here</textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
