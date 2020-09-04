@@ -6,7 +6,7 @@ Type true/false in the provided [ ].
 
 a) [False] `<div><span>hello</div></span>`
 
-b) [False]
+b) [True]
 
 ```html
 <ul>
@@ -60,7 +60,7 @@ g) `td` - table data
 
 ## Q8 - What is the difference between td and th?
 
-    <th> would be the header at the top of a data table and <td> would be an actual data cell
+    <th> would be the header at the top of a data table and <td> would be an actual cell of data
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
@@ -72,7 +72,7 @@ g) `td` - table data
 
 ## Q11 - What is autofilling and why is it important?
 
-    ?
+    Autofill automatically fills in some user data. It is important as it can greatly reduce the amount of time a person spends inputting data.
 
 ## Q12 - Which attributes are always present in an img element?
 

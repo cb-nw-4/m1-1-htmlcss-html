@@ -1,1 +1,47 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <label title="Username" for="username">Username: </label>
+            <input title="Username" type="text" id="username" name="username" required>
+            <label title="Password" for="password">password: </label>
+            <input title="Password"type="text" id="password" name="password" required>
+            <label title="Email"for="email">Email: </label>
+            <input title="Email"type="text" id="email" name="email" required>
+        </form>
+        <h2>Which taxi do you require?</h2>
+        <form>
+            <input title="Car" type="radio" id="car" value="car" name="radio" required>
+            <label title="Car" for="car">Car: </label>
+            <input title="Van" type="radio" id="Van" value="van" name="radio" required>
+            <label title="Van" for="van">Van: </label>
+            <input title="Tuk tuk" type="radio" id="tuktuk" value="tuktuk" name="radio" required>
+            <label title="Tuk tuk" for="tuktuk">Tuk Tuk: </label>
+        </form>
+        <h2>Choose your extras</h2>
+        <form>
+            <input title="Baby Seat" type="checkbox" id="babyseat" name="babyseat" required>
+            <label title="Baby Seat" for="babyseat">Baby seat </label>
+            <input title="Wheelchair Access" type="checkbox" id="wheelchair" name="wheelchair" required>
+            <label title="Wheelchair Access" for="wheelchair">Wheelchair Access </label>
+            <input title="Privacy Windows" type="checkbox" id="privacyw" name="privacyw" required>
+            <label title="Privacy Windows" for="privacy">Privacy Windows: </label>
+        </form>
+        <h2>Where would you like us to pick you up?</h2>
+            <label title="Pickup Location" for="puloc">Pickup Location:</label>
+            <select title="Pickup Location Dropdown" name="puloc" id="puloc">
+                <option title="Downtown" value="downtown">Downtown</option>
+                <option title="Lowertown" value="lowertown">Lowertown</option>
+                <option title="Uptown" value="uptown">Uptown</option>
+                <option title="Midtown" value="midtown">Midtown</option>
+            </select> 
+        <h2>Additional Instructions</h2>
+            <label title="Additional instructions" for="addinst">Special:</label>
+            <textarea title="Enter Additional instructions Here:" id="addinst" name="addinst" rows="1">Provide special instructions here</textarea>      
+            <!--Do I need a <form> section here?-->
+            <input title="Submit Button" type="submit" value="Submit">      
+
+    </body>
+</html>
