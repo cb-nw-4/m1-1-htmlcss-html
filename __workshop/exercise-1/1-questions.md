@@ -71,6 +71,8 @@ td contains data and th contains the header’s information
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
+h1
+
 ## Q10 - In which situation can you use self closing tags?
 
 ## Q11 - What is autofilling and why is it important?
