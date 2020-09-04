@@ -42,34 +42,48 @@ https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element
 
 ## Q5 - What is the most generic tag you can use?
 
-
+A comment tag <!-- abc -->, 
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` anchor
 
-b) `ol`
+b) `ol` ordered list
 
-c) `ul`
+c) `ul` unordered list
 
-d) `li`
+d) `li` list item
 
-e) `tr`
+e) `tr` table row
 
-f) `th`
+f) `th` table header
 
-g) `td`
+g) `td` table data
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
+tr elements.
+
 ## Q8 - What is the difference between td and th?
+
+A th creates a header cell in a table with the text automatically in bold and centered in the cell.  A td creates a data cell which will have no specific formatting unless you style it.
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
+h1
+
 ## Q10 - In which situation can you use self closing tags?
+
+Where the tag does not act on some inline content would be one situation.  For example a <strong>This is strong</strong> would act only the "This is strong" text.  Tags like br, img, link, etc. don't act on the content.  These are also known as void tags.
 
 ## Q11 - What is autofilling and why is it important?
 
+Autofilling using the autocomplete attribute is used to automatically fill in values in an input field.  For example, if you've previously filled in the form and do it again, the browser will display your last value allowing you to select it rather than typing it all over again.  It's important because it will save the user time when completing forms.
+
 ## Q12 - Which attributes are always present in an img element?
 
+src
+
 ## Q13 - Which attribute is always present for an anchor tag?
+
+href
