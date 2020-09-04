@@ -100,6 +100,7 @@ The <th> tag should be used when we want to designate the content in the cell as
 https://www.lifewire.com/difference-between-th-and-td-html-table-tags-3469866
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+h1
 
 ## Q10 - In which situation can you use self closing tags?
 
