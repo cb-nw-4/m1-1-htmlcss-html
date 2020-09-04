@@ -1,1 +1,42 @@
 <!-- ...crickets... -->
+<h1>Registeration Form</h1>
+
+
+<form>
+    <label for="username">Username:</label>
+    <input type="text" required />
+     <label for="password">Password:</label>
+     <input type="password" required />
+     <label for="Email">Email:</label>
+     `<input type="email" required />`
+     <h2>which taxi do you require</h2>
+    <input type="radio" id="car" name="car" value="car">
+    <label for="car">Car</label>
+    <input type="radio" id="van" name="van" value="van">
+    <label for="van">Van</label>
+    <input type="radio" id="tuk tuk" name="tuk tuk" value="tuk tuk">
+    <label for="tuk tuk">Tuk Tuk</label><br>
+
+<h2>choose your extras</h2>
+<input type="checkbox" id="extra1" name="extra1" value="Baby_seat">
+<label for="extra1">Baby Seat</label>
+<input type="checkbox" id="extra2" name="extra2" value="wheelchair">
+<label for="extra2">wheelchair access</label>
+<input type="checkbox" id="extra3" name="extra3" value="privacy">
+<label for="extra3">Privacy windows</label><br>
+
+<h2>Choose Your Pickup location</h2>
+<label for="cars">Pickup Location:</label>
+  <select name="cars" id="cars">
+    <option value="airport">Airport</option>
+    <option value="home">Home</option>
+    <option value="terminal1">Terminal 1</option>
+    <option value="terminal2">Terminal 2</option>
+  </select>
+  <br><br>
+  <h2>Additional Instructions</h2>
+  <textarea rows="4" cols="50" name="comment" form="usrform">
+    Enter text here...</textarea>
+  <input type="submit" value="Submit">
+
+</form>
