@@ -26,15 +26,15 @@ _Feel free to use the powers of Google here, but please provide link(s) to your 
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation 
-<img src=>
+img src=
 b) You want to create a website that lists all the art gallery websites in your city and links to their website. 
-<a href=> <ul> <li>
+a href= ul li
 c) You want to sell designer hats. You need to receive orders from the user.
-<input>
+label input
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 no, they are sibling
 ## Q5 - What is the most generic tag you can use?
- <h1>
+ h1
 ## Q6 - What do the following achronyms stand for?
 
 a) `a` anchor
