@@ -1,1 +1,47 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Registration form</h1>
+        </form>
+            <label for="user">Username</label>
+            <input type="text" id="user" name="user">
+            <label for="pw">password</label>
+            <input type="text" id="pw" name="pw">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </form>
+
+        <h2>Which taxi do you require?</h2>
+        <form>
+            <input type="radio" id="car" name="car">
+            <label for="car">Car</label>
+            <input type="radio" id="van" name="van">
+            <label for="van">Van</label>
+            <input type="radio" id="tuktuk" name="tuktuk">
+            <label for="tuktuk">Tuk Tuk</label>
+        </form>
+
+        <h2>Choose your extras</h2>
+        <form>
+            <input type="checkbox" id="baby" name="baby">
+            <label for="baby">Baby seat</label>
+            <input type="checkbox" id="wheel" name="wheel">
+            <label for="wheel">Wheelchair access</label>
+            <input type="checkbox" id="window" name="window">
+            <label for="window">Privacy windows</label>
+        </form>
+
+        <h2>Where would you like us to pick you up?</h2>
+        <label for="location">Pickup Location:</label>
+        <select name="location" id="cars">
+            <option>Select One</option>
+        </select>
+
+        <h2>Additional Instructions</h2>
+        <form>
+        <label for="instructions">Special</label>
+        <textarea id="instructions" placeholder="provide special instructions here"></textarea>
+        <input type="button" value="submit">
+        </form>
+    </body>
+</html>
