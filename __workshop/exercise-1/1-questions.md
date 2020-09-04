@@ -74,7 +74,7 @@ h1
 
 ## Q10 - In which situation can you use self closing tags?
 
-Where the tag does not act on some inline content would be one situation.  For example a <strong>This is strong</strong> would act only the "This is strong" text.  Tags like br, img, link, etc. don't act on the content.  These are also known as void tags.
+Where the tag does not act on some inline content would be one situation.  For example a <strong>This is strong</strong> would act only on the "This is strong" text.  Tags like br, img, link, etc. don't act on the content.  These are also known as void tags.
 
 ## Q11 - What is autofilling and why is it important?
 
