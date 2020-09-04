@@ -1,1 +1,45 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+    <body>
+            <form>
+                <h1>Registration form</h1>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">password</label>
+                <input type="text" id="password" name="password" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+        
+                <h2>Which taxi do you require?</h2>
+                <input type="radio" id="car" name="taxi" value="car" required>
+                <label for="car">Car</label>
+                <input type="radio" id="van" name="taxi" value="van" required>
+                <label for="van">Van</label>
+                <input type="radio" id="tuktuk" name="taxi" value="tuktuk" required>
+                <label for="tuktuk">Tuk Tuk</label>
+
+                <h2>Choose your extras</h2>
+                <input type="checkbox" id="extra1" name="extra1" value="babyseat">
+                <label for="extra1"> Baby seat</label>
+                <input type="checkbox" id="extra2" name="extra2" value="wheelchair">
+                <label for="extra2"> Wheelchair access</label>
+                <input type="checkbox" id="extra3" name="extra3" value="window">
+                <label for="extra3"> Privacy windows</label>
+                
+                <h2>Where would you like us to pick you up?</h2>
+                <label for="locations">Pickup Location:</label>
+                <select name="locations" id="locations">
+                    <option value="">Select One</option>
+                    <option value="downtown">Downtown Montreal</option>
+                    <option value="griffintown">Griffintown</option>
+                    <option value="plateau">Plateau</option>
+                    <option value="hochelaga">Hochelaga</option>
+                </select>
+                
+                <h2>Additional Instructions</h2>
+                <label for="special">Special</label>
+                <textarea id="special" name="special" rows="2" cols="18">provide special instructions here</textarea>
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+    </body>
+</html>
