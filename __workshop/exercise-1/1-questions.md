@@ -67,6 +67,8 @@ tr
 
 ## Q8 - What is the difference between td and th?
 
+td contains data and th contains the header’s information
+
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
 
 ## Q10 - In which situation can you use self closing tags?
