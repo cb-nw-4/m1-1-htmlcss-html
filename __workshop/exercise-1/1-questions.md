@@ -14,11 +14,16 @@ b) [false ]
 </ol>
 ```
 
-c) [false ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [true ] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
 _Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+A screen reader is a technology used for people who would need help to navigate the website. It provides text-to-speech and it is available in different language pronunciation when written correctly in the html. 
+Link sources: https://www.codecademy.com/articles/how-to-setup-screen-reader
+https://developer.mozilla.org/en-US/docs/Glossary/Screen_reader
+https://webaim.org/techniques/screenreader/
+
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
