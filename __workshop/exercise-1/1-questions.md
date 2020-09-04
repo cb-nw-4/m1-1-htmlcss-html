@@ -90,6 +90,7 @@ f) `th` table header
 g) `td` table data
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
+'table' elements and 'tr' elements
 
 ## Q8 - What is the difference between td and th?
 
