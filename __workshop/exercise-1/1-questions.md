@@ -63,6 +63,7 @@ In a HTML table, <td> defines a data cell while <th> defines a header cell (cont
 Source: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 ## Q9 - Which tag makes the text appear bigger: h1 or h3?
+<h1>
 
 ## Q10 - In which situation can you use self closing tags?
 
