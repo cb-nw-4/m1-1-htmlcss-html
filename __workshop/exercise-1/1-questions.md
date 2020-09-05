@@ -1,12 +1,12 @@
 # HTML Comprehension Questions
-test
+
 ## Q1 - For each of the following HTML documents, is the HTML valid?
 
 Type true/false in the provided [ ].
 
-a) [ False ] `<div><span>hello</div></span>`
+a) [ false ] `<div><span>hello</div></span>`
 
-b) [ True ]
+b) [ true ]
 
 ```html
 <ul>
@@ -20,7 +20,7 @@ c) [ false ] `<ul></ul><img/><ol><li>one</li></ol>`
 
 Generally, screen readers are separate apps that run on the host operating system and can read not only web pages, but text in other apps as well. This is not always the case (ChromeVox is a browser extension), but usually. Screenreaders tend to act in slightly different ways and have different controls, so you'll have to consult the documentation for your chosen screen reader to get all of the details — saying that, they all work in basically the same sort of way.
 
-We should care about them as they allow those with visual impairements to still "read" the content on the web. It is a Accessibility tool.
+We should care about them as they allow those with visual impairements to still "read" the content on the web. It is a Accessibility tool. 
 
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility 
 
@@ -31,6 +31,8 @@ a) You want to create a webpage with the photos from your latest vacation
 <img class = "image"
      src = "image.jpg"
      alt = "description of image">
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
 
@@ -61,12 +63,11 @@ d) `li`: The HTML <li> element is used to represent an item in a list. It must b
 
 e) `tr`: The HTML <tr> element defines a row of cells in a table. The row's cells can then be established using a mix of <td> (data cell) and <th> (header cell) elements.
 
-
 f) `th`: The HTML <th> element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.
 
 g) `td`: The HTML <td> element defines a cell of a table that contains data. It participates in the table model.
 
-## Q7 - Usually, `td` elements are children of what kind of elements?
+## Q7 - Usually, `td` elements are children of what kind of elements? 
 
 Usually children of of the <tr> tag
 
@@ -82,6 +83,7 @@ Usually children of of the <tr> tag
 
 It's used to communicate lack of content in between the opening and closing tags. So, rather than typing <p></p> (with no space at all in between), you'd be able write <p/> .
 
+
 ## Q11 - What is autofilling and why is it important?
 
 (autocomplete)
@@ -96,6 +98,7 @@ The src and alt attributes are required for the document to be valid
 
 ## Q13 - Which attribute is always present for an anchor tag?
 
-The <a> element isn't a link (:link) unless it has an [href] attribute. A side-effect of this is that an <a> element without [href] won't be in the tabbing order by default. 
+ The <a> element isn't a link (:link) unless it has an [href] attribute. A side-effect of this is that an <a> element without [href] won't be in the tabbing order by default. 
 
  https://stackoverflow.com/questions/10510191/valid-to-use-a-anchor-tag-without-href-attribute 
+
